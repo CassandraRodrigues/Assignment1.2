@@ -1,0 +1,186 @@
+body,html{
+  background-image: url("https://image.freepik.com/free-photo/sunset-sea_69709-957.jpg");
+  height: 100%; 
+  margin: 0;
+  padding: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  size: 400px;
+  background-color: #00008B;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color:#ADD8E6;
+  color: #00008B;
+}
+.sans-serif{
+   font-family: "Lucida Calligraphy", sans-serif;
+   font-size: 40px;
+   color: #00008B;
+}
+.container{
+ width: 50%;
+ height: 400px;
+ 
+ margin-left: 650px ;
+ margin-right: 50px;
+
+box-sizing: border-box;
+ box-shadow: 0 15px 40px rgba(0,0,0,.9);
+ 
+}
+.container .left{
+  float: left;
+  width: 50%;
+  height: 400px;
+  background: url("https://image.freepik.com/free-vector/travelers-concept-illustration_114360-2602.jpg");
+  background-size: cover;
+  box-sizing: border-box;
+}
+.container .right
+{
+float: right;
+width: 50%;
+height: 400px;
+box-sizing: border-box;
+}
+
+.formBox
+{
+  width: 100%;
+  padding: 100px 50px;
+  box-sizing: border-box;
+  height: 400px;
+  background: #fff;
+
+ }
+ .formBox p
+ {
+ margin: 0;
+ padding: 0;
+ font-weight: bolder;
+ color: #a6af13; 
+ }
+
+ .formBox input
+ {
+  width: 100%;
+  margin-bottom: 20px;
+ }
+
+ .formBox input[type="text"]
+ {
+
+    border: none;
+    border-bottom: 2px solid #a6af13;
+    outline: none;
+    height: 50px;
+  }
+
+.formBox input[type="password"]
+  {
+
+    border: none;
+    border-bottom: 2px solid #a6af13;
+    outline: none;
+    height: 50px;
+  }
+  .formBox input[type="text"] {
+
+    border-bottom: 2px solid #262626;
+  }
+  .formBox input[type="Password"]
+  {
+
+    border-bottom: 2px solid #262626;
+  }
+
+  .formBox input[type="submit"]
+   {
+    border: none;
+    outline: none;
+    height: 30px;
+    color: #fff;
+    background: #262626;
+    cursor: pointer;
+
+   }
+   .formBox input[type="submit"]:hover
+   {
+      background: #a6af13;
+   }
+
+   .formBox a
+   {
+
+    color: #262626;
+    font-size: 12px;
+    font-weight: bold;
+   }
+  main{
+  margin-left:10px; 
+  margin-top: : 50px;
+  overflow: hidden;
+  }
+  .col{
+    width: 40%;
+    height: 200px;
+    float: left;
+  }
+  p{
+  color: #00008B;  
+  }
+.text-dark{
+text-align: center;
+}
+
+.search input[type=text]{ 
+        width:300px; 
+        height:25px; 
+        border-radius:25px; 
+        border: none; 
+    } 
+          
+    .search{ 
+        float:right; 
+        margin:7px; 
+    } 
+          
+    .search button{ 
+        background-color: #0074D9; 
+        color: #f2f2f2; 
+        float: right; 
+        padding: 5px 10px; 
+        border-radius:25px
+        margin-right: 16px; 
+        font-size: 12px; 
+        border: none; 
+        cursor: pointer; 
+    }  
+    .login{
+     text-align: center;
+      font-size:x-large;
+     font
+    }
